@@ -39,33 +39,31 @@ Data Description:
 
 # Module 3: Exploratory Data Analysis
 - Unique value for a particular column and convert into dataframe:</br>
-	df['floors'].value_counts().to_frame()
+df['floors'].value_counts().to_frame()</br>
 ![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/83ad9caa-86da-47fa-a93b-c6277b8fb4f1)
 
 
-- Find outlier using boxplot from "seaborn" library:
- e.g. - plt.figure(figsize=(10,6))
-	sns.boxplot(x='waterfront',y='price', data=df)
-	plt.xlabel('Waterfront View (0: No, 1: Yes)')
-	plt.ylabel('Price')
-	plt.title('Price distribution for houses w.r.t Waterfront')
-	plt.show()
+- Find outlier using boxplot from "seaborn" library:</br>
+ e.g. - plt.figure(figsize=(10,6))</br>
+	sns.boxplot(x='waterfront',y='price', data=df)</br>
+	plt.xlabel('Waterfront View (0: No, 1: Yes)')</br>
+	plt.ylabel('Price')</br>
+	plt.title('Price distribution for houses w.r.t Waterfront')</br>
+	plt.show()</br>
 ![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/82a7c339-5745-4552-9a3f-4cc2b37f2486)
 
 
-- To see correlation with all column with price column:
-	df.corr()['price'].sort_values()
-
+- To see correlation with all column with price column:</br>
+	df.corr()['price'].sort_values()</br>
 ![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/bbcbcde0-87eb-4d6e-a24e-66026750b101)
 
 
-- Used regplot to see correlation between 'sqft_above' and 'price':
- e.g. - sns.regplot(x='sqft_above', y='price', data=df)
-	plt.xlabel('sqft_above')
-	plt.ylabel('Price')
-	plt.title('sqft_above Vs Price')
-	plt.show()
-
+- Used regplot to see correlation between 'sqft_above' and 'price':</br>
+ e.g. - sns.regplot(x='sqft_above', y='price', data=df)</br>
+	plt.xlabel('sqft_above')</br>
+	plt.ylabel('Price')</br>
+	plt.title('sqft_above Vs Price')</br>
+	plt.show()</br>
 ![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/528f5d72-6d43-4fd7-a1bb-db03afd5c1d7)
 
 
