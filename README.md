@@ -110,7 +110,10 @@ df['floors'].value_counts().to_frame()</br>
 	![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/e87d60dd-1682-4c81-94b4-1ca0cfd82da7)</br>
 - Based on the output, I selected Random Forest and Gradient Boosting but there are chances of overfitting. So, I'm using Cross-Validation to predict and calculate MSE to get the best model for prediction.</br>
 - GradientBoostingRegressor: </br>
-  ![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/1f9e1ce3-48f2-4fe5-94e1-e559f1177964)
+  ![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/1f9e1ce3-48f2-4fe5-94e1-e559f1177964)</br>
+- Specific Record:</br>
+![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/45a7f469-2a9f-43dc-a74f-eeb0987f5ab6)
+
 - RandomForestRegressor: </br>
   ![image](https://github.com/ParthM16/House-Price-Prediction-Python-/assets/136796479/b719cc5f-3109-4a34-9698-a7fdc443b70d)
 </br>
