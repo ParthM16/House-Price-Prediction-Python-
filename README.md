@@ -2,7 +2,7 @@
 Prediction of House prices.
 
 # Objective: 
-### To determine the market price of a house.</br>
+### To determine the market price of a King County, USA house.</br>
 Data: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction</br>
 Data Description:
   - Data from May 2014 and May 2015</br>
